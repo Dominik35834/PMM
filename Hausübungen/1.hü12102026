@@ -1,0 +1,23 @@
+Wie viele Zeilen (Pinguine)? 344 Zeilen
+Wie viele Spalten? 8
+Welchen Typ hat `species`? <fct> 
+`body_mass_g`? <int>
+
+2. Die Einstiegsfrage nachbauen
+Steigt die Körpermasse mit der Flossengröße für **alle drei Arten**?  Ja, bei allen Arten kann man erkennen dass die Körpermasse mit der Flossengröße wächst.
+Welche Art ist am schwersten?  Die Gentoo Art ist die schwerste.
+Vorhersage: Also es wird etwas mit der Farbe zu tun haben, da in der ersten Zeile bei goemnoch color= red steht und in der zweiten zeile color = species steht. Darum glaube ich, dass in der zweiten zeile die Arten nach Farben unterschiedenwerden und oben nicht.
+Vorherssage: Es wird ein Syntaxfehler auftreten, da dann R die vorherige Zeile als vollständigen Befehl.
+
+4. Eine eigene Frage finden
+Deine Frage (in einem Satz): Wie hat sich die Körpermasse der Pinguine im Laufe der Geburtsjahre verändert?
+Was zeigt der Plot? (2 Sätze): Der Plot zeigt einfach den geglätteten Verlauf der Körpermasse in Abhängigkeit vom Geburtsjahr an und auch den Koeffidenzintervall als grauen Bereich. Die durchschnittliche Körpermasse hat um das Jahr 2008 ihr maximum danach und davor ist es ein bisschen niedriger.
+
+5. Kapitel-Check (Kap. 2 — Workflow: basics)
+Warum steht das `+` in `ggplot2` **immer am Zeilenende** — was würde auch
+  technisch passieren, wenn du es ans Zeilenanfang stellst? Wie meldet sich R?
+Das + muss am Zeilenende stehen, damit R weiß, dass die Zeile noch nicht zu Ende ist und das noch weitere Befehle kommen. Am Anfang nimmt R an, dass die vorherige zeile abgeschlossen ist und bricht die neue Zeile mit einem Syntaxfehler ab.
+
+Warum speichert man Werte mit `<-` in einem Skript, statt sie in der
+  Konsole direkt auszurechnen?
+  Man ssspeichert die Werte mit <- in einem Skript, damit man diesse dann ssspäter wiederverwenden kann und der Code dauerhaft gespeichert wird, statt in dder Conssole zu verssschwinddden.
